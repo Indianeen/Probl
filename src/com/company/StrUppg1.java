@@ -7,10 +7,11 @@ public class Main {
 
     public static void main(String[] args) {
 
-        String s = JOptionPane.showInputDialog("Type the word you want to reverse.");
+        String svar = JOptionPane.showInputDialog("Type the word you want to reverse.");
 
 
 
-        String r = reverse(s);
+        String rev = reverse(svar);
+        JOptionPane.showInputDialog(null, "Your word (" + svar + ") becomes: " + rev + ", when reversed.");
     }
 }
